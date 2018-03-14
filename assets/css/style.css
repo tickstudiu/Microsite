@@ -181,3 +181,13 @@ input[type="button"]{
     }
 }
 
+@media only screen and (max-width: 768px){
+    .content-header > h2{
+        font-size: 24px;
+    }
+
+    .content-header > p{
+        font-size: 20px;
+    }
+}
+
