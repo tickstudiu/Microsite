@@ -3,7 +3,7 @@ body{
     padding: 0;
     min-height: 100%;
     background-color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'Db helvethaica x med cond v3', sans-serif;
     color: #333;
 }
 
@@ -90,6 +90,7 @@ body{
 }
 
 input[type="button"]{
+    margin: 15px 0;
     padding: 7.5px 35px;
     border-radius: 19px;
     color: white;
@@ -125,6 +126,10 @@ input[type="button"]{
     .content-header > img{
         margin-top: 10px;
         margin-bottom: 160px;
+    }
+
+    input[type="button"]{
+        margin: 35px 0 0 0;
     }
 }
 
