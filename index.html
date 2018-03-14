@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
     <!-- style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- javascript -->
+
     <title>Microsite</title>
 </head>
 <body>
@@ -23,9 +25,13 @@
 
     <!-- 16:9 aspect ratio -->
     <div class="row">
-        <div class="col-md-10 offset-md-1 col-sd-12">
+        <div class="col-md-10 offset-md-1 col-sd-12" >
             <div class="video-box">
                 <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                </div>
+
+                <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -34,7 +40,7 @@
     <div class="row">
         <div class="col-md-12 col-xs-8 offset-xs-2">
             <div class="content-header text-center">
-                <img src="assets/img/text1.png">
+                <img src="assets/img/text1.png" id="scrollDiv">
             </div>
         </div>
     </div>
@@ -45,7 +51,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-10 offset-md-1">
-            <div class="content-box">
+            <div class="content-box" >
                 <h1 class="text-shadow-black">Text messaging</h1>
                 <ul>
                     <li>
@@ -62,7 +68,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="content-box">
+            <div class="content-box" >
                 <h1>Practice at home</h1>
                 <ul>
                     <li>
