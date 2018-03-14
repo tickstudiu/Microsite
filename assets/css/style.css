@@ -1,0 +1,183 @@
+.backgorund-img > img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.video-box{
+    border: 10px solid rgb(139,186,221);
+}
+
+.content-header{
+    width: 90%;
+    margin: 35px auto 150px auto;
+}
+
+.text-shadow-black{
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+.content-header > h2{
+    background: -webkit-linear-gradient(0deg, rgb(197,174,80),rgb(230,217,133), rgb(197,174,80),rgb(230,217,133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.content-header > p{
+    color: white;
+    font-size: 35px;
+}
+
+.content-box:nth-child(odd){
+    margin: 50px 0;
+    padding: 5%;
+    background: linear-gradient( 0deg, rgb(15,75,143), rgb(24,117,208));
+}
+
+.content-box:nth-child(odd) > h1{
+    color: rgb(230,217,133);
+}
+
+.content-box:nth-child(odd) > ul{
+    color: white;
+    font-size: 21px;
+}
+
+.content-box:nth-child(odd) > ul > li > p{
+    color: white;
+    font-size: 21px;
+}
+
+.content-box:nth-child(even){
+    margin: 50px 0;
+    padding: 5%;
+}
+
+.content-box:nth-child(even) > h1,.content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p{
+    color: rgb(15,73,139);
+}
+
+.content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p{
+    font-size: 21px;
+}
+
+.content-box > h1{
+    text-transform: uppercase;
+}
+
+.content-box > ul > li{
+    padding-top: 20px;
+}
+
+input[type="button"]{
+    padding: 7.5px 35px;
+    border-radius: 19px;
+    color: white;
+    border: 4px solid #eaeaea;
+    background: linear-gradient( 0deg, rgb(15,75,143), rgb(255,255,255));
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption-header {
+    position: absolute;
+    top: 10%;
+    left: -20%;
+    width: 100%;
+}
+
+.caption-header > h1{
+    color: white;
+    font-size: 35px;
+}
+
+.caption-header > h1 > span{
+    color: rgb(230,217,133);
+}
+
+.caption-text{
+    position: absolute;
+    top: 80%;
+    left: -20%;
+    width: 100%;
+}
+
+.caption-text > h1{
+    color: white;
+    font-size: 35px;
+}
+@media only screen and (max-width: 992px){
+    .content-header > h2{
+        font-size: 30px;
+    }
+
+    .content-header > p{
+        font-size: 25px;
+    }
+
+    .caption-header > h1{
+        font-size: 23px;
+    }
+
+
+    .caption-text > h1{
+        color: white;
+        font-size: 23px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .nav-link{
+        border-right: none;
+    }
+
+    .content-header{
+        margin: 10px auto 90px auto;
+    }
+
+    .content-header > h2{
+        font-size: 28px;
+    }
+
+    .content-header > p{
+        font-size: 23px;
+    }
+
+    .content-box:nth-child(odd) > h1,.content-box:nth-child(even) > h1{
+        font-size: 37px;
+    }
+
+    .content-box:nth-child(odd) > ul,.content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p{
+        font-size: 16px;
+    }
+
+
+    .caption-header {
+        left: 0;
+    }
+
+    .caption-header > h1{
+        font-size: 18px;
+    }
+
+    .caption-text{
+        left: 0;
+    }
+
+    .caption-text > h1{
+        color: white;
+        font-size: 18px;
+    }
+
+    input[type="button"]{
+        margin-top: 50px;
+    }
+}
+
