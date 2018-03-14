@@ -7,6 +7,10 @@ body{
     color: #333;
 }
 
+.embed-responsive-21by9{
+    display: none;
+}
+
 .backgorund-img > img{
     width: 100%;
     background-repeat: no-repeat;
@@ -18,6 +22,10 @@ body{
 
 .video-box{
     border: 10px solid rgb(139,186,221);
+}
+
+.video-box:nth-child(0){
+    display: none;
 }
 
 .content-header > img{
@@ -90,6 +98,14 @@ input[type="button"]{
 }
 
 @media only screen and (max-width: 992px) {
+    .embed-responsive-21by9{
+        display: block;
+    }
+
+    .embed-responsive-16by9{
+        display: none;
+    }
+
     .content-header > img{
         width: 90%;
         height: auto;
