@@ -24,7 +24,7 @@
 }
 
 .content-header > img{
-    width: 80%;
+    width: 76%;
     height: auto;
     margin-top: 0;
     margin-bottom: 42vw;
@@ -55,7 +55,7 @@
     line-height: 4.2vw;
     font-family: 'Db helvethaica x med cond v3', sans-serif;
     font-weight: 500;
-    padding-bottom: 30px;
+    padding-bottom: 1vw;
 }
 
 .content-box:nth-child(even){
@@ -94,7 +94,7 @@ input[type="button"]{
     color: white;
     border: 6px solid #eaeaea;
     background: linear-gradient( 0deg, rgb(15,75,143), rgb(255,255,255));
-    font-size: 19px;
+    font-size: 1.3vw;
 }
 
 .banner{
@@ -119,18 +119,6 @@ input[type="button"]{
     .video-box{
         border: 5px solid rgb(139,186,221);
     }
-
-
-    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd) > ul{
-        font-size: 40px;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-
-    .content-box:nth-child(odd) > h1,.content-box:nth-child(even) > h1{
-        font-size: 92px;
-        line-height: 92px;
-    }
 }
 
 @media only screen and (max-width: 773px) {
@@ -143,37 +131,20 @@ input[type="button"]{
         margin: 1vh 0 5vh 0;
     }
 
-    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd) > ul{
-        font-size: 36px;
-        line-height: 36px;
-        padding-bottom: 18px;
-    }
 
-    .content-box:nth-child(odd) > h1,.content-box:nth-child(even) > h1{
-        font-size: 84px;
-        line-height: 84px;
-    }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 581px) {
     .video-box{
         border: 4px solid rgb(139,186,221);
     }
+
     .content-header > img{
-        margin: 0;
+        width: 85%;
+        margin-bottom: 20vw;
     }
 
-    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd) > ul{
-        font-size: 32px;
-        line-height: 32px;
-        padding-bottom: 17px;
-    }
 
-    .content-box:nth-child(odd) > h1,.content-box:nth-child(even) > h1{
-        font-size: 65px;
-        line-height: 65px;
-        text-align: center;
-    }
 }
 
 
