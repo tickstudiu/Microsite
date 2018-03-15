@@ -110,7 +110,7 @@ input[type="button"]{
         margin-bottom: 90px;
     }
 
-    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd){
+    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd) > ul{
         font-size: 40px;
         line-height: 40px;
         padding-bottom: 20px;
@@ -127,7 +127,7 @@ input[type="button"]{
         margin: 35px 0 0 0;
     }
 
-    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd){
+    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd) > ul{
         font-size: 36px;
         line-height: 36px;
         padding-bottom: 18px;
@@ -149,7 +149,7 @@ input[type="button"]{
         margin: 0;
     }
 
-    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd){
+    .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p,.content-box:nth-child(odd) > ul > li > p,.content-box:nth-child(odd) > ul{
         font-size: 32px;
         line-height: 32px;
         padding-bottom: 17px;
