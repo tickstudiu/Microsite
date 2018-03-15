@@ -46,7 +46,7 @@
     line-height: 10vw;
     font-family: 'Db helvethaica x med cond v3', sans-serif;
     text-transform: uppercase;
-    margin: 0 0 3vh 0;
+    margin-bottom: 5vw;
 }
 
 .content-box:nth-child(odd) > ul,.content-box:nth-child(odd) > ul > li > p{
@@ -78,7 +78,7 @@
     line-height: 10vw;
     font-family: 'Db helvethaica x med cond v3', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
 }
 
 .content-box:nth-child(even) > ul,.content-box:nth-child(even) > ul > li > p{
@@ -143,6 +143,7 @@ input[type="button"]{
 
     input[type="button"]{
         margin: 1vh 0 5vh 0;
+        font-size: 19px;
     }
 
 
